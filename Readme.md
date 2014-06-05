@@ -8,3 +8,8 @@ A Networking sample for Panda3d
 
 Those three gave good examples on the Panda3d forums, I took them and made my own version of it.
 Feel free to use this
+
+## USING ##
+
+Run Server.py
+Run Client.py - BE SURE! you change the client ID of each client. (inside client.py): self.id = "TestClient"

@@ -36,7 +36,7 @@ class Client(ShowBase):
             print "Client: Debug - ON"
             
         ## HOLDERS ##
-        self.id = "TestClient0"
+        self.id = "TestClient1"
         self.hasLocalPlayer = False
         self.isConnected = False
         self.tcpConnection = None

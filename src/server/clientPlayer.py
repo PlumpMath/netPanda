@@ -27,7 +27,7 @@ class ClientPlayer():
     	self.id = _id
     	self.state = State()
     	self.inputCmds = InputCommands()
-    	self.inputCmds.oldTime = float('+infinity')
+    	self.inputCmds.oldTime = float(0.0)#'+infinity')
     	self.netConnection = _netCon
 
         # Debug TEMP
